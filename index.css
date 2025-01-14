@@ -47,6 +47,10 @@
   color: var(--bg);
 }
 
+.no-copy {
+  pointer-events: none;
+}
+
 /* End  */
 
 /* General Styles */
