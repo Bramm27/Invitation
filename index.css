@@ -67,6 +67,10 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: var(--primary);
+  -webkit-user-select: none; /* Untuk browser berbasis WebKit (Chrome, Safari, dll.) */
+  -moz-user-select: none;    /* Untuk Firefox */
+  -ms-user-select: none;     /* Untuk Internet Explorer/Edge */
+  user-select: none;         /* Standar */
 }
 
 body > nav.navbar {
